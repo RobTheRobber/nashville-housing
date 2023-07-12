@@ -1,34 +1,24 @@
-## Nashville Housing
+## Overview
 
-YouTube is a popular online video-sharing platform that allows users to upload, watch, and share videos on a wide range of topics, from entertainment and education to news and tutorials, while also providing a platform for creators to build an audience and monetize their content through ads and sponsorships.
-Analyzing YouTube video viewership is important for evaluating content performance, understanding the audience, optimizing content, monetization, competitor analysis, and making informed decisions. It helps creators and businesses maximize their reach, engagement, and overall success on the YouTube platform.
+Nashville is the capital of the U.S. state of Tennessee and home to The Country Music Hall of Fame and Museum. From this music hub which is home to a population of nearly 700,000 people, we have a trove of data waiting to be explored. This presentation is going to be focused on the real estate data of the Nashville area. It is important to review this data to understand the zones and compositon of the Nashville area. The primary focus of this dataset is the different types of properties along with the the cost breakdown.
 
-## 💼 Stakeholder Interest
+## Questions
+- What are the most common types of properties?
+- What is being paid for by each type of property?
+- 
+## Cleaning
+- This data was luckily pretty easy to work with due to the smaller number of columns and with most of the data filled. For the initial cleaning I cut out columns that I didn't need and were unecessary. Afterwards I checked for any nulls or zeros and if there were any nulls within my numeric data then I changed them to zero. I did remove those values where the total value or acreage were zero. I did not remove every zero with things such as bedrooms and bathrooms since it wouldn't make sense to do so. It was also brought to my attention while I was calculating my averages and highest prices that for some strange reason the sales price column of my data was listed as a string instead of an integer so I had to go through my columns and make sure they all were integers. After my initial exploration into my dataset I noticed there were a large amount of groups that had very few entries and would throw off all of my charts and data so I ended up trimming those with fewer than 5 entries to limt the outliers when it came to finding averages and sums. After that I had a clean set of data ready to be used for my analysis.
 
-- Analyzing YouTube viewership
-- Evaluating audience engagement
-- Informing marketing decisions
 
-## 🎇 Summary
-- Most popular content creators
-- Analysis by video category
-   - Most viewed
-   - Most commented
-- Timeline between publication and trending status
+## Visualization
 
-## 🎆 Data of Interest
-- Channel name
-- Trending date
-- Publish time
-- Views
-- Comment count
-- Video Id
+To start off the visualization we can look at the most common type of data
 
 
 
 
 ## 🏆 The Most Popular Creators between Nov 2017 and June 2018 and Their View Count
-<img src="assignments\midterm\nashville-housing\img\land-use.png" width=60% height=50%/>
+<img src="https://github.com/RobTheRobber/nashville-housing/blob/main/img/land-use.png" width=60% height=50%/>
 
 ## 💬 The Most Popular Video Categories by View Count and Comments
 
