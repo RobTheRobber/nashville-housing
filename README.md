@@ -16,12 +16,15 @@ To start off the visualization we can look at the most common type of data. Here
 <br>
 <img src="img/piechart.png" width=40% height=30%/>
 <br>
-Looking at the different districts we can see how the majority of the properties fall under the Urban Services District which makes sense as the majority of our data is based on residental areas. This 
+Looking at the different districts we can see how the majority of the properties fall under the Urban Services District which makes sense as the majority of our data is based on residental properties. We can then look at the top 10 Tax Districts broken down into Land Use Categories and see that we can confirm that the highest amount of properties are Single Family Homes within the Urban Services District with second place going to General Service District for Single Family Homes as well.
 
+<br>
+<img src="img/district_totals.png" width=40% height=30%/>
+<br>
 
 
 ## 🏆 The Most Popular Creators between Nov 2017 and June 2018 and Their View Count
-<img src="https://github.com/RobTheRobber/nashville-housing/blob/main/img/land-use.png" width=60% height=50%/>
+<img src="img/district_totals.png" width=60% height=50%/>
 
 ## 💬 The Most Popular Video Categories by View Count and Comments
 
