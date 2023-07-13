@@ -13,7 +13,7 @@ Nashville is the capital of the U.S. state of Tennessee and home to The Country 
 ## Visualization
 
 To start off the visualization we can look at the most common type of data
-
+<img src="assignments\midterm\nashville-housing\img\piechart.png" width=60% height=50%/>
 
 
 
