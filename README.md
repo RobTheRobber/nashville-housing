@@ -12,8 +12,11 @@ Nashville is the capital of the U.S. state of Tennessee and home to The Country 
 
 ## Visualization
 
-To start off the visualization we can look at the most common type of data
-<img src="assignments\midterm\nashville-housing\img\piechart.png" width=60% height=50%/>
+To start off the visualization we can look at the most common type of data. Here we can see that the majority of the properties are Single Familiy properties taking up 85% of the entries. Even looking at the other categories of the top 5 listed here are all residential. This leave less than .1% of the rest of data for all the types of properties. This unfortunately made it a bit more difficult to really get accurate averages for the rest of my data but with a bit of scrubing I was able to bring my limited data in line.
+<br>
+<img src="img/piechart.png" width=40% height=30%/>
+<br>
+Looking at the different districts we can see how the majority of the properties fall under the Urban Services District which makes sense as the majority of our data is based on residental areas. This 
 
 
 

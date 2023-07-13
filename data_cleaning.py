@@ -31,7 +31,7 @@ def remove_empty_data(df, columns = None):
     else:
         df = df.dropna(columns=columns)
     return df
-    
+
 
 
 ### NEEDS TO BE PUT INTO FUNCTIONS
