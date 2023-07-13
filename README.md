@@ -4,15 +4,23 @@ Nashville is the capital of the U.S. state of Tennessee and home to The Country 
 
 ## Questions
 - What are the most common types of properties?
-- What is being paid for by each type of property?
-- 
+- What is the value by each type of property?
+- Where are the most costly types of properties?
 ## Cleaning
 - This data was luckily pretty easy to work with due to the smaller number of columns and with most of the data filled. For the initial cleaning I cut out columns that I didn't need and were unecessary. Afterwards I checked for any nulls or zeros and if there were any nulls within my numeric data then I changed them to zero. I did remove those values where the total value or acreage were zero. I did not remove every zero with things such as bedrooms and bathrooms since it wouldn't make sense to do so. It was also brought to my attention while I was calculating my averages and highest prices that for some strange reason the sales price column of my data was listed as a string instead of an integer so I had to go through my columns and make sure they all were integers. After my initial exploration into my dataset I noticed there were a large amount of groups that had very few entries and would throw off all of my charts and data so I ended up trimming those with fewer than 5 entries to limt the outliers when it came to finding averages and sums. After that I had a clean set of data ready to be used for my analysis.
 
 
 ## Visualization
 
-To start off the visualization we can look at the most common type of data. Here we can see that the majority of the properties are Single Familiy properties taking up 85% of the entries. Even looking at the other categories of the top 5 listed here are all residential. This leave less than .1% of the rest of data for all the types of properties. This unfortunately made it a bit more difficult to really get accurate averages for the rest of my data but with a bit of scrubing I was able to bring my limited data in line.
+To start off the visualization we can look at the average value of each property type. Looking at this chart we can see the total value of the property broken down into its land value and building value and see how some property types have a bit of a surcharge.
+<br>
+<img src="img/cost-breakdown.png" width=40% height=30%/>
+<br>
+Base value isn't sale value though and we can look at the difference between the sale price and the total value to see how well each property sells and the positive or negative value the type has on its final sale price. By viewing this chart we can see which type of properties sell over or undervalue and by looking at this chart we can see for the most part most types of properties sell close to their total value. 
+<br>
+<img src="img/boxplot.png" width=40% height=30%/>
+<br>
+But as every realtor will tell you, the most important thing about a property is location, location, location. Here we can see that the majority of the properties are Single Familiy properties taking up 85% of the entries. Even looking at the other categories of the top 5 listed here are all residential. This leave less than .1% of the rest of data for all the types of properties.
 <br>
 <img src="img/piechart.png" width=40% height=30%/>
 <br>
@@ -22,26 +30,15 @@ Looking at the different districts we can see how the majority of the properties
 <img src="img/district_totals.png" width=40% height=30%/>
 <br>
 
-
-## 🏆 The Most Popular Creators between Nov 2017 and June 2018 and Their View Count
-<img src="img/district_totals.png" width=60% height=50%/>
-
-## 💬 The Most Popular Video Categories by View Count and Comments
-
-<img src="https://github.com/tralinde/tralinde_EDA_group_presentation/assets/96899068/2264cf5b-2683-4bce-b174-d532f3136703" width=80% height=80%/>
-
-## 🕗 Days until trending sorted by category 
-
-<img src ="https://github.com/tralinde/tralinde_EDA_group_presentation/assets/96899068/ba4dc434-2b19-4867-9452-0dbfb5bb3011" width=80% height=80%/>
+Now that we have identified the most common type of property along with the district we can start looking at the cost of these properties and break down where the value of these properties are coming from. First looking at the average cost of each type of property per district we can get a rough idea of the value of the location. By viewing these averages with our previous total value graph, we are able to get a more clear picture of the prices available of each property type per area.
 
 
-## 🤓 Data Cleaning Process
-- Duplicate data
-- Time formatting consistency
-   - Converting time to integers
-   - Date/time formatting
-- Removing outliers
-- Visual clarity on category ids
+<br>
+<img src="img/district_breakdown.png" width=40% height=30%/>
+<br>
+
+## Conclusion
+It is quite clear that the most common type of within this data are some type of home with single family homes being by far the most common. Looking at the districts we can see that the majority of properties are located in the Urban District and the General Services District having the vast majority of the properties within them. Looking at the costs of each property we could have a bit of skewed data due to the low the amount of data points in some of the property types but a pretty clear view that in most cases the value of a property comes from the building with some exceptions. Finally looking at the difference between the sale price and the total value of the home we can get an idea of how much these properties are being sold for and whether the property type increases or decreases with value due to its type.
 
 
 ## 🛠️ Future Project Plans
